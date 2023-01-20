@@ -1,0 +1,47 @@
+length()
+In Java, the length() string method returns the length ⁠— total number of characters ⁠— of a String.
+
+Suppose we have a String called str, str.length() would return its length.
+		In theory, the length of a String is the same as the Unicode units of the String. For example, 
+		escape sequences such as \n count as only one character.
+		
+		
+		concat()
+The concat() method concatenates one string to the end of another string. Concatenation is 
+the operation of joining two strings together.
+
+Suppose we have a String called str1 and another String called str2, using str1.concat(str2) 
+would return str1 with str2 appended to the end of it.
+Strings are immutable objects which means that String methods, 
+like concat() do not actually change a String object.
+
+equals()
+With objects, such as Strings, we can’t use the primitive equality operator == to check for 
+equality between two strings. To test equality with strings, we use a built-in method called equals().
+Side note, there’s also an equalsIgnoreCase() method that compares two strings without 
+considering upper/lower cases.
+When we use .compareTo(), we must pay attention to the return value:
+If the method returns 0, the two Strings are equal.
+If the value is less than 0, then the String object is lexicographically less 
+than the String object argument.
+If the value is greater than 0, then the String object is lexicographically greater than 
+the String object argument.
+
+indexOf()
+If we want to know the index of the first occurence of a character in a string, we can use the indexOf() 
+method on a string.
+The indexOf() instance method can also return where the substring begins (the index of the first 
+character in the substring)
+
+charAt()
+The charAt() method returns the character located at a String‘s specified index.
+
+substring()
+There may be times when we only want a part of a string. In such cases, we may 
+want to extract a substring from a string.
+The substring begins with the character at the specified index and extends to the end of the string.
+
+toUpperCase() / toLowerCase()
+toUpperCase(): returns the string value converted to uppercase
+toLowerCase(): returns the string value converted to lowercase
+

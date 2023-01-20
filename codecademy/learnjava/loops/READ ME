@@ -1,0 +1,78 @@
+ Im learning and praticing about how to use loops to iterate through lists and repeat code.
+ Then, practicing my skills in two projects:
+ 
+ 	1. FizzBuzz
+	A program that outputs numbers from 1 to 100… with a catch:
+	For multiples of 3, print Fizz instead of the number.
+	For the multiples of 5, print Buzz.
+	For numbers which are multiples of both 3 and 5, print FizzBuzz.
+
+ 	2. PrimeDirective
+ 	A program that creates an ArrayList of all prime numbers in an array.
+	
+	
+	IMPORTANT:
+	
+	while loops: These are useful to repeat a code block an unknown number of times 
+	until some condition is met.
+	
+	for loops: These are ideal for when you are incrementing or decrementing with a 
+	counter variable.
+	
+	For-each loops: These make it simple to do something with each item in a list.
+	
+	
+	While We're Here
+	 Like an if statement, the code inside a while loop will only run if the 
+	condition is true. However, a while loop will continue running the code 
+	over and over until the condition evaluates to false. 
+	
+	Incrementing While Loops
+	 When looping through code, it’s common to use a counter variable. A counter 
+	(also known as an iterator) is a variable used in the conditional logic of the 
+	loop and (usually) incremented in value during each iteration through the code.
+	
+	Using For Loops
+	 In a for loop, an initialization statement is run once in order to initialize 
+	the loop control variable. This variable is modified in every iteration, can be 
+	referenced in the loop body, and used to test the boolean condition.
+		A for loop header is made up of the following three parts, each 
+		separated by a semicolon:
+		1.The initialization of the loop control variable.
+		2.A boolean expression.
+ 		3.An increment or decrement statement.
+
+ 	Iterating Over Arrays and ArrayLists
+ 	 In order to traverse an array or ArrayList using a loop, we must find a way 
+ 	to access each element via its index. We may recall that for loops are created 
+ 	with a counter variable. We can use that counter to track the index of the 
+ 	current element as we iterate over the list of data.
+ 	 We can also use while loops to traverse through arrays and ArrayLists. If we 
+ 	use a while loop, we need to create our own counter variable to access individual 
+ 	elements. We’ll also set our condition to continue looping until our counter 
+ 	variable equals the list length.
+
+
+	Break and continue
+	  If we ever want to exit a loop before it finishes all its iterations or want 
+	to skip one of the iterations, we can use the break and continue keywords.
+	The break keyword is used to exit, or break, a loop. Once break is executed, 
+	the loop will stop iterating. 
+	 The continue keyword can be placed inside of a loop if we want to skip an 
+	iteration. If continue is executed, the current loop iteration will immediately 
+	end, and the next iteration will begin.
+	
+    Removing Elements During Traversal
+	  Removing An Element Using while
+	     When using a while loop and removing elements from an ArrayList, we should not 
+	    increment the while loop’s counter whenever we remove an element. We don’t need to 
+	    increase the counter because all of the other elements have now shifted to the left.
+	  Removing An Element Using for
+	     When using a for loop, we, unfortunately, must increase our loop control variable 
+	    — the loop control variable will always change when we reach the end of the loop (and 
+	    it will usually change by 1 because we often use something like i++.) Since we can’t 
+	    avoid increasing our loop control variable, we can take matters into our own hands and 
+	    decrease the loop control variable whenever we remove an item.
+
+	
+	(CODECADEMY RESUME)
