@@ -1,0 +1,25 @@
+.header{
+    background-color: CadetBlue;
+    text-align: center;
+    opacity: 0.98;
+  
+  }
+  .about-me{
+    font-size: 20px;
+    color: GhostWhite;
+  }
+  
+  
+  .title{
+    font-weight: bold;
+  }
+  
+  h1{
+    color: azure;
+  }
+  
+  body{
+    color: DarkSlateGray;
+    font-family: georgia;
+    background-image: url('https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
+  }
