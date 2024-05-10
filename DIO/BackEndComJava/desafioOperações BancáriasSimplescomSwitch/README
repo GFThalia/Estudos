@@ -24,8 +24,8 @@ Se o usuário escolher:
 #### Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
-|Entrada	                |Saída                                                 |
-|----------------|-------------------------------|-----------------------------|
+|Entrada	                |Saída                |
+|----------------|-------------------------------|
 |1- 50 - 2 - 100|  Saldo atual: 50.0 - Saldo insuficiente. - Programa encerrado.   |
 |3 - 1 - 550 - 0	|Saldo atual: 0.0 - Saldo atual: 550.0 - Programa encerrado. |
 |1 - 1000 - 2 - 500 -0	|Saldo atual: 1000.0 - Saldo atual: 500.0 - Programa encerrado.|
