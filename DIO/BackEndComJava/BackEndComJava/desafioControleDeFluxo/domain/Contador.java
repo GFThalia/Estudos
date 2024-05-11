@@ -1,6 +1,7 @@
-package estudos.DIO.BackEndComJava.desafioControleDeFluxo.domain;
+package BackEndComJava.desafioControleDeFluxo.domain;
 import java.util.Scanner;
-import estudos.DIO.BackEndComJava.desafioControleDeFluxo.exception.ParametrosInvalidosException;
+
+import BackEndComJava.desafioControleDeFluxo.exception.ParametrosInvalidosException;
 
 public class Contador {
     

@@ -1,4 +1,4 @@
-package estudos.DIO.BackEndComJava.desafioControleDeFluxo.exception
+package BackEndComJava.desafioControleDeFluxo.exception;
 
 public class ParametrosInvalidosException extends Exception {
     public ParametrosInvalidosException() {

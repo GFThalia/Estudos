@@ -1,4 +1,4 @@
-package estudos.DIO.BackEndComJava;
+package BackEndComJava.CondiçõesLoopseExceçõesnaPráticacomJava.desafioOperaçõesBancáriasSimplescomSwitch;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package estudos.DIO.BackEndComJava;
+package BackEndComJava;
 
 import java.util.Locale;
 import java.util.Scanner;

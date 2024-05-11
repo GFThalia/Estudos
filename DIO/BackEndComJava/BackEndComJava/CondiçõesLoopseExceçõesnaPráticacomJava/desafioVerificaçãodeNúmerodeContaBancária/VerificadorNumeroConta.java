@@ -1,4 +1,4 @@
-package DIO.BackEndComJava.CondiçõesLoopseExceçõesnaPráticacomJava.desafioVerificaçãodeNúmerodeContaBancária;
+package BackEndComJava.CondiçõesLoopseExceçõesnaPráticacomJava.desafioVerificaçãodeNúmerodeContaBancária;
 
 import java.util.Scanner; 
 

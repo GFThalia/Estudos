@@ -1,4 +1,4 @@
-package estudos.DIO.BackEndComJava;
+package BackEndComJava;
 
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
