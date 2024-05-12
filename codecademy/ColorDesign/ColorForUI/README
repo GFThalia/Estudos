@@ -1,0 +1,12 @@
+- ### Review
+    
+    The keys to designing for UI:
+    
+    - Select a dominant brand color and supporting accent colors
+    - Use contrast to define sections and differentiate actions
+    - Use semantic colors for [error](https://www.codecademy.com/resources/docs/general/error) and success messages
+    - Incorporate default colors for text and backgrounds where needed
+    - Neutral colors can provide good contrast
+    - Keep users in mind when selecting color
+
+    ### Project: Pinpoint E-Commerce
