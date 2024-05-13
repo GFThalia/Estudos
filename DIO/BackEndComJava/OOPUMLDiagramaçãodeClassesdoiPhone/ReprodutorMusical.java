@@ -1,4 +1,4 @@
-package DIO.BackEndComJava.OOPUMLDiagramaçãodeClassesdoiPhone;
+package BackEndComJava.OOPUMLDiagramaçãodeClassesdoiPhone;
 
 public interface ReprodutorMusical {
     public void tocar();
