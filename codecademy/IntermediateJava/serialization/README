@@ -8,6 +8,36 @@
 - To implement writeObject() to customize the serialization of an object to handle non-serializable fields.
 - To implement readObject() to customize the deserialization of an object with non-serializable fields.
 
+#### Serializable Field Objects
+During serialization in Java, associated field objects must be serializable.
+
+#### Writing Serialized Objects to a File
+In Java, a serialized object may be written to a file and read using FileOutputStream and FileInputStream.
+
+#### writeObject() and readObject()
+In Java, implementing the writeObject() and readObject() will define a customized way of serializing and deserializing an object.
+
+#### Serialization
+Serialization is the process of converting an object’s state into a stream of bytes.
+
+#### serialVersionUID
+In Java, a class implementing Serializable needs a serialVersionUID to confirm class compatibility during deserialization.
+
+#### Serializable Class
+A class (or any of its parent classes) must implement the Serialiazable interface (or any of its children interfaces) in order to be serializable.
+
+#### Deserialization
+Deserialization is the process of converting a stream of bytes, created after serialization, back into an object.
+
+#### Benefits of Serialization
+Serialization is beneficial when an object needs to be stored or sent over a network.
+
+#### Static and Transient Fields
+In Java, any field not marked as static or transient is serializable.
+
+
+
+
 ### Project: Medieval Serialization
 Welcome to Waveside Game Studio, creators of MMOTBRPGFUWJVMs, the ultra concise acronym for Massively Multiplayer Online Text Based Role Playing Games For Use With Java Virtual Machines.
 

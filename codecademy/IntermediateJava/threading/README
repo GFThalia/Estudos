@@ -1,0 +1,14 @@
+### THREADING: LESSON
+### Review
+ So far, you have:
+
+- created threads in three different ways:
+- extending the Thread class
+- implementing the Runnable class
+- using the in-line, lambda expression syntax
+- started threads with .start()
+- paused the execution of threads using Thread.sleep(long millis)
+- observed thread execution using the supervisor pattern
+- blocked on thread completion with .join()
+- synchronized access to shared resources from threads with the synchronized keyword
+- communicated between threads with .wait() and .notify()
