@@ -6,3 +6,6 @@
 - Nested classes provide an extra level of security by giving programmers the power to control the amount of access one class may have to another class and its methods.
 - Non-static (inner) nested classes have the capability of accessing other static and non-static members whereas static nested classes may only access other static members of their enclosing class.
 - Shadowing refers to the practice of having variables and methods of the same name exist within nested classes. Shadowing results in overlap, and is managed using the keyword this to determine which version of the variable or method is being used.
+
+### Project: Ice Cream Inventory
+Congratulations, you have just landed a new contract to build out an application for a new local ice cream shop in town! They need a program that will help them sort and keep track of their inventory of ice cream, shakes, slushies, and smoothies. This Java program will have to keep count of how many of each product the shop sells.
