@@ -1,0 +1,15 @@
+### JUNIT TESTING: LESSON
+### Review
+Key concepts covered in this lesson:
+
+- JUnit testing makes sure we have good test coverage across a program’s code and verifies everything is working as expected.
+- How to write @Test methods and their incorporations of the Assert class library.
+- How to write @Before methods and why they’re useful.
+- How to write @After methods and why they’re useful.
+- What test suites are and what they’re used for.
+- “Red — Green — Refactor!”
+
+#### JUnit Classes and Methods
+JUnit testing takes place in a traditional Java class, just like the classes written for the application you want to test. The functionality for those tests comes from JUnit classes, most commonly the Assert class and annotation classes.
+
+“Annotating” is a general term that refers to ways of marking methods for testing, changing how these methods are compiled, and establishing when they’ll be run by the compiler. The four most essential annotations are @Before, @Test, @After, and @Ignore.
