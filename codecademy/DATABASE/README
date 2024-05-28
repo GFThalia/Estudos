@@ -1,0 +1,12 @@
+### Databases
+- Databases are systems that store, modify, and access structured collections of information electronically.
+- Database Management Systems (DBMS) allow developers to communicate via code or a graphical user interface with a database.
+- Databases can store a wide range of data types, including text, numbers, dates and times, and files of various types.
+#### Relational Databases
+- Relational databases, a common database class, organize data into tables of rows and columns of information and rely on relationships to organize data.
+- A relational database schema is typically pre-defined before data is entered.
+- All relational databases use SQL to allow developers to communicate with the database using a common language.
+- Relational databases can be costly to set up and scale. Performance and cost are big factors in using a relational database in an application.
+#### Non-Relational Databases
+- Non-relational databases, another common database class, refer to any database that does not follow the relational model.
+- Non-relational databases typically have a more flexible schema and are more easily scaled than relational databases. However, the unstructured nature of the data can make it difficult to maintain, and each non-relational database has its own query language.
