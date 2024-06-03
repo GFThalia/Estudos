@@ -1,0 +1,18 @@
+### Review INSERTING AND UPDATING
+
+ We’ve covered numerous topics regarding creating and updating documents in collections. Let’s recap some key takeaways from this lesson:
+
+- The _id field is a unique identifier for documents in a collection. By default, MongoDB assigns an ObjectId value to the _id field for each document.
+- Individual documents can be added to a collection with .insertOne(), and the document to be inserted is provided as an argument.
+- Multiple documents can be inserted into a collection with the .insertMany() method. An array containing all the documents to insert is passed in an argument.
+- The .updateOne() method is used to update the first document within the collection that matches a given query.
+- We can use .updateMany() to update multiple matching documents simultaneously.
+- The $push operator appends a specified value to an array.
+- The .findAndModify() method modifies and returns a single document in a collection. By default, it returns the original document, and if no matching document is found, a new one can be inserted by adding the upsert option.
+
+In addition to the methods we’ve learned throughout this lesson, MongoDB offers us other syntax and commands that can be useful when inserting, updating, or replacing documents:
+- The ordered parameter can be provided to the .insertMany() method. It accepts a boolean value, and, if set to false, will insert the documents in an unordered format to increase performance.
+- The $unset operator can be provided to the .updateOne() or .updateMany() method. It removes a particular field from a document.
+- The .findOneAndUpdate() method is similar to .updateOne(), but instead of returning a document acknowledging the success or failure of our operation, it returns either the original or updated document.
+- The .renameCollection() method allows us to update the name of our collection without modifying any of its documents.
+- The .bulkWrite() method allows us to perform multiple write operations (updating or inserting) with controls for order of execution.
