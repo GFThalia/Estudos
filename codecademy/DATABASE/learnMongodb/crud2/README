@@ -1,4 +1,4 @@
-### Review INSERTING AND UPDATING
+### Review - INSERTING AND UPDATING
 
  We’ve covered numerous topics regarding creating and updating documents in collections. Let’s recap some key takeaways from this lesson:
 
@@ -16,3 +16,17 @@ In addition to the methods we’ve learned throughout this lesson, MongoDB offer
 - The .findOneAndUpdate() method is similar to .updateOne(), but instead of returning a document acknowledging the success or failure of our operation, it returns either the original or updated document.
 - The .renameCollection() method allows us to update the name of our collection without modifying any of its documents.
 - The .bulkWrite() method allows us to perform multiple write operations (updating or inserting) with controls for order of execution.
+
+
+### Review - DELETING DOCUMENTS
+- Let’s go over a quick summary of what we’ve learned about deleting in MongoDB:
+- The .deleteOne() method deletes a single document from a collection. It accepts a filter document specifying which document to delete as the first parameter.
+- The .deleteOne() method will only delete the first matching document in the collection.
+- The .deleteMany() method deletes all matching documents from a collection. It accepts a filter document specifying which document to delete as the first parameter.
+- The .replaceOne() method replaces an entire document from a collection. It takes in filtering criteria specifying the document to replace as the first parameter and a replacement document as the second one.
+- The .replaceOne() method will only replace the first matching document in the collection.
+- Since .replaceOne() replaces an entire document, only fields included in the second parameter will be present in the document after the operation executes.
+
+In addition to the syntax we’ve learned throughout this lesson, MongoDB offers us other syntax and commands that can be useful when deleting or replacing documents:
+- The .findOneAndReplace() method is very similar to .replaceOne(). It replaces a document in a collection based on filter criteria, but instead of returning a document that acknowledges the operation, it returns either the original document or the replacement document.
+- The .findOneAndDelete() method deletes a document, and returns the deleted document.

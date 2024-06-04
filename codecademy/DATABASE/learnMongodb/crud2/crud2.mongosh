@@ -1,0 +1,30 @@
+use inventory
+
+show collections
+
+db.paintings.find()
+
+db.paintings.insertOne(
+    { inv_id: 26, 
+    price: 59.99, 
+    size: '10x10', 
+    style: 'pop art', 
+    status: 'listed' }
+)
+
+db.paintings.find({ inv_id: 26 })
+
+
+db.paintings.deleteOne({ price: 0 })
+
+db.paintings.find({price: 0})
+
+
+db.paintings.updateMany(
+  { style: "abstract"},
+  { $set: { status: "sold" }}
+)
+
+db.paintings.deleteMany({ 
+  status: "completed"
+})
