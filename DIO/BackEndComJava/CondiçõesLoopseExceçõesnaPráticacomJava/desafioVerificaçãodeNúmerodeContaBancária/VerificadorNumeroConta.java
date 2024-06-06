@@ -2,7 +2,6 @@ package BackEndComJava.CondiçõesLoopseExceçõesnaPráticacomJava.desafioVerif
 
 import java.util.Scanner; 
 
-import java.util.Scanner; 
 
 public class VerificadorNumeroConta {
 
