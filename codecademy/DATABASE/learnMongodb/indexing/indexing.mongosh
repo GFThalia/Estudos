@@ -1,0 +1,21 @@
+db.movies.createIndex({year: -1})
+
+db.movies.find({year: {$gte: 2000}})
+
+
+db.movies.createIndex({year: -1, runtime: 1})
+
+db.movies.find({ year: { $gte: 2000}, runtime: {$lt: 30} })
+
+
+db.movies.createIndex({genres: 1})
+
+db.movies.find({genres: 'Drama'})
+
+
+db.movies.getIndexes()
+
+db.movies.dropIndex('year_-1')
+
+db.movies.getIndexes()
+

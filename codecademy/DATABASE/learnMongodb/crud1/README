@@ -1,0 +1,35 @@
+### Review - Finding Documents
+ In this lesson, we learned how to query documents in MongoDB. Let’s recap some key takeaways from the lesson:
+
+- We can view a list of all our databases by running the show dbs command.
+- We can navigate to a particular database, or see which database we are currently using with the use <db>, and db commands, respectively.
+- We can use the .find() method to query a collection. Excluding a query argument matches all documents from the collection.
+- We can match documents on particular field values by passing a query argument to the .find() method.
+- When a collection’s record has an embedded document, we can query the fields inside of it using dot notation (.) and wrapping the fields in quotation marks.
+- The $gt and $lt comparison operators allow our query to match documents where the value for a particular field is greater than or less than a given value, respectively.
+- We can use the .sort() method to sort our query results by a particular field in ascending or descending order.
+- We can include a projection in our query to include or exclude certain fields from our returned documents.
+
+In addition to the methods and operators we’ve covered in this lesson, MongoDB provides us with even more syntax that can be useful to us when performing queries:
+- The .count() method returns the number of documents that match a query.
+- The .limit() method can be chained to the .find() method, and specifies the maximum number of documents a query will output.
+- The $exists operator can be included in a query filter to only match documents that contain the given field.
+- The $ne operator helps check if a field is not equal to a specified value.
+- The $and and $or operators help perform AND or OR logic operators.
+
+### Review - QUERYING ON ARRAY FIELDS
+
+In this lesson, we continued our exploration of querying in MongoDB by learning how to query array fields. Let’s recap some important takeaways from this lesson:
+
+- We can query documents for exact array matches by using the .find() method and passing in a query document containing the field name, and its array as the value.
+- We can match a single array element by using the .find() method and passing in a query document containing the field name, and the element we want to match as its value.
+- To match multiple elements in an array, we can apply the $all operator to the .find() method.
+- The $all operator will match any document where the given array field contains all the specified values, in any order and regardless of other elements in the array.
+- We can use the .find() method with comparison operators to match documents where the array contains one or more elements that satisfy the query conditions in some combination.
+- To match documents where the array contains one or more elements that satisfy all the query conditions, we can apply the $elemMatch operator to the .find() method.
+- We can query embedded documents in an array field by querying for either an exact match (with the exact order) or by querying for a single field.
+- In addition to the syntax we’ve covered in this lesson, MongoDB provides us with even more operators that can be useful to us when querying on array fields:
+
+- The $size operator is used with .find() to match any array with the specified number of elements.
+- The $in operator can be included in queries to match documents where the field is an array that contains at least one element in the specified array.
+- The $nin operator can be included in queries to match documents where the field is an array that contains no elements mentioned in the given array.

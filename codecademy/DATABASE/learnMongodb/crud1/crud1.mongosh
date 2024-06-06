@@ -1,0 +1,26 @@
+show dbs
+
+use codecadestream
+
+show collecions
+
+db.channels.find();
+
+db.users.find();
+
+
+
+db.channels.find({streamer: "Shark"})
+
+db.channels.find({ avg_views: { $gte: 10000} })
+
+db.channels.find({ avg_views: { $gte: 10000} }).sort({avg_views: -1})
+
+db.channels.find({channel_name:"Codecadetron Gaming"}, {streamer: 1, avg_views: 1})
+
+
+
+db.channels.find({ followers: { $elemMatch: { is_subscribed: true }}}).count()
+
+db.users.find({ watched: { $all: [ "esports", "moba" ]}}).count()
+
