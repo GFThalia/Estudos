@@ -1,4 +1,4 @@
-package DIO.BackEndComJava.CriandoumBancoDigitalcomJavaeOrientaçãoaObjetos;
+package BackEndComJava.CriandoumBancoDigitalcomJavaeOrientaçãoaObjetos;
 
 public abstract class Conta implements IConta{
     private static final int AGENCIA_PADRAO = 1;

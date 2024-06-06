@@ -1,4 +1,4 @@
-package DIO.BackEndComJava.CriandoumBancoDigitalcomJavaeOrientaçãoaObjetos;
+package BackEndComJava.CriandoumBancoDigitalcomJavaeOrientaçãoaObjetos;
 
 import java.util.ArrayList;
 import java.util.List;

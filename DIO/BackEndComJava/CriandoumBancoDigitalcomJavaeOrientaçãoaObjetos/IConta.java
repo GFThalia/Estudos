@@ -1,4 +1,4 @@
-package DIO.BackEndComJava.CriandoumBancoDigitalcomJavaeOrientaçãoaObjetos;
+package BackEndComJava.CriandoumBancoDigitalcomJavaeOrientaçãoaObjetos;
 
 public interface IConta {
     public void sacar(double valor);

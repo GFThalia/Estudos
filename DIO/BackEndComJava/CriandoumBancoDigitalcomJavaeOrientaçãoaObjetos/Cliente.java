@@ -1,4 +1,4 @@
-package DIO.BackEndComJava.CriandoumBancoDigitalcomJavaeOrientaçãoaObjetos;
+package BackEndComJava.CriandoumBancoDigitalcomJavaeOrientaçãoaObjetos;
 
 public class Cliente {
     private String nome;
