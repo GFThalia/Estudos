@@ -1,0 +1,35 @@
+### **Review**
+
+(function syntax, passing data to functions, the return keyword, ES6 arrow functions, and concise body syntax)
+
+In this lesson, i covered some important concepts about functions:
+
+- A *function* is a reusable block of code that groups together a sequence of statements to perform a specific task.
+- A *function declaration* :
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9622a10d-dbfc-4974-85a4-51678c9aa228/Untitled.png)
+    
+- A parameter is a named variable inside a function’s block which will be assigned the value of the argument passed in when the function is invoked:
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1326a781-ca65-466b-bb91-066da9b66674/Untitled.png)
+    
+- To *call* a function in your code:
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0710f110-2dee-426f-84f2-dd944ffcb0a4/Untitled.png)
+    
+- ES6 introduces new ways of handling arbitrary parameters through *default parameters* which allow us to assign a default value to a parameter in case no argument is passed into the function.
+- To return a value from a function, we use a *return statement*.
+- To define a function using *function expressions*:
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df4a035a-20d6-4cfe-a325-cfde2f43842b/Untitled.png)
+    
+- To define a function using *arrow function notation*:
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/56aed129-45dd-4d3a-8c48-eb3572303755/Untitled.png)
+    
+- Function definition can be made concise using concise arrow notation:
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/81086b10-5b82-478f-adf5-4099b2346407/Untitled.png)
+    
+
+It’s good to be aware of the differences between function expressions, arrow functions, and function declarations.
