@@ -1,0 +1,42 @@
+## **Review**
+
+### Introduction
+
+- Data is printed, or logged, to the console, a panel that displays messages, with `console.log()`.
+- We can write single-line comments with `//` and multi-line comments between `/*` and `/`.
+- There are 7 fundamental data types in JavaScript: strings, numbers, booleans, null, undefined, symbol, and object.
+- Numbers are any number without quotes: `23.8879`
+- Strings are characters wrapped in single or double quotes: `'Sample String'`
+- The built-in arithmetic operators include `+`, ``, ``, `/`, and `%`.
+- Objects, including instances of data types, can have properties, stored information. The properties are denoted with a `.` after the name of the object, for example: `'Hello'.length`.
+- Objects, including instances of data types, can have methods which perform actions. Methods are called by appending the object or instance with a period, the method name, and parentheses. For example: `'hello'.toUpperCase()`.
+- We can access properties and methods by using the `.`, dot operator.
+- Built-in objects, including `Math`, are collections of methods and properties that JavaScript provides.
+
+
+### **Variables**
+
+- Variables hold reusable data in a program and associate it with a name.
+- Variables are stored in memory.
+- The `var` keyword is used in pre-ES6 versions of JS.
+- `let` is the preferred way to declare a variable when it can be reassigned, and `const` is the preferred way to declare a variable with a constant value.
+- Variables that have not been initialized store the primitive data type `undefined`.
+- Mathematical assignment operators make it easy to calculate a new value and assign it to the same variable.
+- The `+` operator is used to concatenate strings including string values held in variables.
+- In ES6, template literals use backticks ``` and `${}` to interpolate values into a string.
+- The `typeof` keyword returns the data type (as a string) of a value.
+
+### **CONDITIONAL STATEMENTS**
+
+(how to use if, else if, else, switch, and ternary syntax to control the flow of a program in JavaScript)
+Way to go! Here are some of the major concepts for conditionals:
+
+- An `if` statement checks a condition and will execute a task if that condition evaluates to `true`.
+- `if...else` statements make binary decisions and execute different code blocks based on a provided condition.
+- We can add more conditions using `else if` statements.
+- Comparison operators, including `<`, `>`, `<=`, `>=`, `===`, and `!==` can compare two values.
+- The logical and operator, `&&`, or “and”, checks if both provided expressions are truthy.
+- The logical operator `||`, or “or”, checks if either provided expression is truthy.
+- The bang operator, `!`, switches the truthiness and falsiness of a value.
+- The ternary operator is shorthand to simplify concise `if...else` statements.
+- A `switch` statement can be used to simplify the process of writing multiple `else if` statements. The `break` keyword stops the remaining `case`s from being checked and executed in a `switch` statement.
